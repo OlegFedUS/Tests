@@ -24,8 +24,8 @@ public class TablesTest {
         List<WebElement> tabels = driver.findElements(By.xpath("//div[contains(text(),'tisch')]"));
         for (int i = 0; i < tabels.size(); i++) {
             Assert.assertTrue(tabels.get(i).getText().toLowerCase().contains("tisch"));
+            System.out.println(tabels.get(i));
         }
-
 
     }
 }

@@ -27,7 +27,6 @@ public class TablesTest {
             System.out.println(tabels.get(i));
         }
 
-
     }
 }
 
